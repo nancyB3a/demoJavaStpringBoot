@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v3")
 public class HomeController {
 
-    @GetMapping("/personas")
+    @GetMapping("/newindex")
     public String index(){
         return "Hola a Todos";
     }
